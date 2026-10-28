@@ -1,6 +1,6 @@
-## Раздел 2. Аналитический обзор (Орельский Никита)
+# Список источников
 
-Нумерация совпадает со ссылками в квадратных скобках в файле 02-analogs.md.
+Нумерация сквозная для всего отчёта. Источники [1]–[24] использованы в разделе 2, [25]–[27] в разделе 3, [28]–[30] в разделе 6.
 
 [1] CUSTIS (ООО «ЗИС»). Главная страница компании, сведения о реестре Минцифры и лицензировании Modeus. https://custis.ru/ (дата обращения 26.10.2026).
 
@@ -40,12 +40,24 @@
 
 [19] Instructure, Inc. Репозиторий canvas-lms на GitHub, лицензия AGPLv3. https://github.com/instructure/canvas-lms (дата обращения 26.10.2026).
 
-[20] Instructure Community. Outcomes Overview (Instructors). https://community.canvaslms.com/videos/1638-outcomes-overview-instructors (дата обращения 26.10.2026).
+[20] Instructure Community. How do I align an outcome with a rubric in an account? https://community.instructure.com/en/kb/articles/661574-how-do-i-align-an-outcome-with-a-rubric-in-an-account (дата обращения 28.10.2026).
 
 [21] Instructure Community. CBE For Admins: Canvas Outcomes. https://community.instructure.com/en/discussion/541364/cbe-for-admins-canvas-outcomes (дата обращения 26.10.2026).
 
 [22] Instructure Community. Canvas Commons Goes Global: Instance Regionalization. https://community.instructure.com/en/discussion/573709/canvas-commons-goes-global-instance-regionalization (дата обращения 26.10.2026).
 
-[23] Instructure Community. Which countries are restricted from using Canvas? https://community.canvaslms.com/docs/DOC-10704-67952720334 (дата обращения 26.10.2026).
+[23] Instructure Community. Which countries are restricted from using Canvas? https://community.instructure.com/en/kb/articles/662727-which-countries-are-restricted-from-using-canvas (дата обращения 28.10.2026).
 
 [24] University of Michigan ITS. Canvas International Access. https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=2969 (дата обращения 26.10.2026).
+
+[25] Учись Онлайн. Сколько зарабатывает Python-разработчик в России и за границей в 2026 году. https://uchis-online.ru/blog/professii/skolko-zarabativaet-python-razrabotchik (дата обращения 27.10.2026).
+
+[26] Учись Онлайн. Сколько зарабатывает бэкенд-разработчик. https://uchis-online.ru/blog/professii/skolko-zarabativaet-bekend-razrabotchik (дата обращения 27.10.2026).
+
+[27] Учись Онлайн. Сколько зарабатывает PHP-разработчик в 2026 в России и других странах. https://uchis-online.ru/blog/professii/skolko-zarabativaet-php-razrabotchik (дата обращения 27.10.2026).
+
+[28] Росстат: среднемесячная начисленная заработная плата работников организаций (без выплат социального характера) в образовании за 2025 год, 71 345 руб.; по материалам ТАСС от 15.03.2026. https://finance.mail.ru/article/v-rosstate-nazvali-raznitsu-mezhdu-zarplatami-medikov-i-uchitelej-69201490/ (дата обращения 25.10.2026).
+
+[29] Производственный календарь на 2026 год: 247 рабочих дней, 1 972 ч при 40-часовой неделе. https://buh.ru/calendar/2026/ (дата обращения 25.10.2026).
+
+[30] Страховые взносы в 2026 году: общий тариф 30 % до предельной базы, 15,1 % сверх неё (ст. 425 НК РФ). https://vitvet.com/articles/nalogi/po_nalogam/strakhovye_2026/ (дата обращения 25.10.2026).
