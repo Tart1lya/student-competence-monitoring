@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="use-case-monitoring" name="Варианты использования">
+    <mxGraphModel dx="2100" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1750" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="system" value="" style="rounded=0;html=0;strokeWidth=2;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="1400" height="1460" as="geometry"/>
+        </mxCell>
+        <mxCell id="title" value="UML-диаграмма вариантов использования" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="25" width="1400" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="system-name" value="ИС мониторинга формирования компетенций студентов (Moodle + плагин)" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="125" width="1350" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff-UC01" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=1.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="staff" target="UC01" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175.000" y="231.667" as="sourcePoint"/>
+            <mxPoint x="420.000" y="250.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teacher-UC05" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=1.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teacher" target="UC05" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175.000" y="591.667" as="sourcePoint"/>
+            <mxPoint x="400.000" y="510.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teacher-UC06" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=1.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teacher" target="UC06" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175.000" y="591.667" as="sourcePoint"/>
+            <mxPoint x="420.000" y="700.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rop-UC02" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=0.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rop" target="UC02" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815.000" y="511.667" as="sourcePoint"/>
+            <mxPoint x="1610.000" y="250.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rop-UC04" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=0.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rop" target="UC04" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815.000" y="511.667" as="sourcePoint"/>
+            <mxPoint x="1590.000" y="520.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rop-UC11" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=0.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rop" target="UC11" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815.000" y="511.667" as="sourcePoint"/>
+            <mxPoint x="1620.000" y="700.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rop-UC10" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=1.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rop" target="UC10" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885.000" y="511.667" as="sourcePoint"/>
+            <mxPoint x="1620.000" y="1020.000" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="2025" y="520"/>
+              <mxPoint x="2025" y="1020"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student-UC10" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=0.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="student" target="UC10" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815.000" y="1301.667" as="sourcePoint"/>
+            <mxPoint x="1620.000" y="1020.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student-UC12" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=0;dashPattern=7 5;exitX=0.00000000;exitY=0.33333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="student" target="UC12" relationship="association">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815.000" y="1301.667" as="sourcePoint"/>
+            <mxPoint x="1660.000" y="1470.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-version" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=open;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.50000000;exitY=1.00000000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.50000000;entryY=0.00000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UC02" target="UC03" relationship="include">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350.000" y="310.000" as="sourcePoint"/>
+            <mxPoint x="980.000" y="370.000" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1350" y="345"/>
+              <mxPoint x="980" y="345"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-version-label" value="«include»" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="307" width="180" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="include-data" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=open;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.50000000;exitY=1.00000000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.50000000;entryY=0.00000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UC07" target="UC08" relationship="include">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.000" y="1115.000" as="sourcePoint"/>
+            <mxPoint x="650.000" y="1270.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-data-label" value="«include»" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="1178" width="180" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="include-calculation" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=open;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.84835335;exitY=0.85867805;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.24757695;entryY=0.06839532;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UC07" target="UC09" relationship="include">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="838.111" y="1088.149" as="sourcePoint"/>
+            <mxPoint x="1066.507" y="1288.207" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-calculation-label" value="«include»" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1208" width="180" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="extend-warning" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=open;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.00000000;exitY=0.50000000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.00000000;entryY=0.50000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UC10" target="UC07" relationship="extend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140.000" y="1020.000" as="sourcePoint"/>
+            <mxPoint x="920.000" y="1020.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extend-warning-label" value="«extend»" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="973" width="180" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC01" value="UC01. Загрузить рамки&#10;компетенций из CSV" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="420.0" y="190.0" width="460" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC02" value="UC02. Сформировать / обновить&#10;карту компетенций&#10;(пороги, правила и веса)" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1090.0" y="190.0" width="520" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC03" value="UC03. Сохранить новую&#10;версию карты" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="795.0" y="370.0" width="370" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC04" value="UC04. Сравнить&#10;версии карты" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1150.0" y="470.0" width="440" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC05" value="UC05. Связать учебные активности&#10;и элементы оценивания&#10;с компетенциями" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="400.0" y="450.0" width="500" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC06" value="UC06. Выставить оценки&#10;в Moodle" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="420.0" y="650.0" width="460" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC07" value="" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="380.0" y="925.0" width="540" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC08" value="UC08. Получить оценки&#10;и данные о завершении&#10;активностей из Moodle" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="390.0" y="1270.0" width="520" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC09" value="UC09. Рассчитать показатели&#10;освоения компетенций&#10;и проверить пороги" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="965.0" y="1280.0" width="410" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC10" value="UC10. Уведомить студента&#10;и РОП об отставании" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140.0" y="950.0" width="480" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC11" value="UC11. Просмотреть дашборды&#10;и отчёты, сравнить когорты" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1120.0" y="640.0" width="500" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC12" value="UC12. Просмотреть личный&#10;прогресс по компетенциям" style="ellipse;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1180.0" y="1415.0" width="480" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC07-name" value="UC07. Выполнить плановый&#10;мониторинг компетенций" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="UC07">
+          <mxGeometry x="15.0" y="33.0" width="510" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC07-extension-title" value="extension points" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="UC07">
+          <mxGeometry x="55.0" y="123.0" width="430" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC07-extension-name" value="после проверки порогов" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=0;" vertex="1" parent="UC07">
+          <mxGeometry x="55.0" y="149.0" width="430" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="UC07-divider" edge="1" parent="UC07" style="edgeStyle=none;html=0;strokeWidth=1.2;strokeColor=#202020;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3.385" y="110" as="sourcePoint"/>
+            <mxPoint x="536.615" y="110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="staff" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="105" y="195" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff-name" value="Методист /&#10;специалист ИТ-службы" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="staff">
+          <mxGeometry x="-100.0" y="123.0" width="270" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="teacher" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="105" y="555" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="teacher-name" value="Преподаватель" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="teacher">
+          <mxGeometry x="-100.0" y="123.0" width="270" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="rop" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="475" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="rop-name" value="Руководитель ОП&#10;(РОП)" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="rop">
+          <mxGeometry x="-100.0" y="123.0" width="270" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="student" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;strokeWidth=1.8;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="1265" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="student-name" value="Студент" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#202020;strokeColor=none;fillColor=none;fontStyle=1;" vertex="1" parent="student">
+          <mxGeometry x="-100.0" y="123.0" width="270" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="schedule" value="UC07 запускается автоматически&#10;по расписанию внутри Moodle." style="shape=note;size=18;whiteSpace=wrap;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;spacingLeft=16;spacingRight=22;strokeWidth=1.3;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="810" width="520" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="schedule-link" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.50000000;exitY=1.00000000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.50000000;entryY=0.00000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="schedule" target="UC07" relationship="note">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.000" y="886.000" as="sourcePoint"/>
+            <mxPoint x="650.000" y="925.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warning-condition" value="Условие: показатель ниже порога.&#10;Точка: после проверки порогов." style="shape=note;size=18;whiteSpace=wrap;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;spacingLeft=16;spacingRight=22;strokeWidth=1.3;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1135" width="580" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="warning-condition-link" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.00000000;exitY=0.00000000;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="warning-condition" relationship="note">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050.000" y="1135.000" as="sourcePoint"/>
+            <mxPoint x="1030.000" y="1020.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="access" value="Ф6: доступ разграничен по ролям; студент видит только свои данные.&#10;Действия пользователей, входы и выгрузки отчётов журналируются." style="shape=note;size=18;whiteSpace=wrap;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;spacingLeft=16;spacingRight=22;strokeWidth=1.3;strokeColor=#202020;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1610" width="1290" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="access-link" value="" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1.8;strokeColor=#202020;endArrow=none;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;exitX=0.49612403;exitY=0.00000000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49642857;entryY=1.00000000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="access" target="system" relationship="note">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995.000" y="1610.000" as="sourcePoint"/>
+            <mxPoint x="995.000" y="1570.000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
